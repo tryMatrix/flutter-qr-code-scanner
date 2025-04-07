@@ -1,0 +1,20 @@
+name: flutter_qr_mobile_scanner
+description: A Flutter app to scan QR codes using mobile_scanner (no NDK required)
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^3.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
